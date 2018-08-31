@@ -542,3 +542,7 @@ alertcenter/alertcenter
 marketprice/marketprice
 matchengine/matchengine
 readhistory/readhistory
+test/matchengine/cli
+test/marketprice/marketprice
+test/utils/test_list
+test/utils/test_skiplist
