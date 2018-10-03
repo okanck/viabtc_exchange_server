@@ -564,7 +564,7 @@ int read_cfg_bool(json_t *root, const char *key, bool *val, bool required, bool 
     }
     if (!json_is_boolean(node))
         return -__LINE__;
-    *val = json_boolean_value(node);
+    *val = json_is_true(node);
 
     return 0;
 }
